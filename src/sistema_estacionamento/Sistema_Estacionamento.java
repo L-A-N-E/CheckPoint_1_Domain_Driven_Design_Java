@@ -70,11 +70,6 @@ public class Sistema_Estacionamento {
                             System.out.println("Digite um horário válido (entre 0 e 23):");
                             horario_entrada = input.nextInt();
                         }
-
-                        // Exibe os Dados Coletados
-                        System.out.println("\n#== Dados do Veículo ==#\nMarca: " + marca_veiculo + "\nModelo: " + modelo_veiculo + "\nCor: " + cor_veiculo
-                                + "\nPlaca: " + placa_veiculo + "\nHorário de Entrada: " + horario_entrada + ":00" + "\nLocalização da Vaga: " + vaga_localizao
-                                + "\nHá Danos no Veículo? " + danos_veiculo);
                     } else {
                         System.out.println("Sem espaço no B.D.");
                     }
